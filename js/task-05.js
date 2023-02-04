@@ -8,4 +8,4 @@ onInput.addEventListener("input", (event)=> {
 
 
 
-  console.log(onInput.value);
+// dONE
