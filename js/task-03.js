@@ -22,3 +22,5 @@ const listContainer = document.querySelector(".gallery");
 listContainer.insertAdjacentHTML("afterbegin",itemsToInput);
 
 listContainer.classList.add("list");
+
+// Done
