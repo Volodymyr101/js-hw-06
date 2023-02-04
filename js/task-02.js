@@ -15,4 +15,5 @@ const itemsToInsert = ingredients.map(ingregient => {
 );
 
 document.getElementById("ingredients").append(...itemsToInsert);
+
 // Done
