@@ -12,13 +12,15 @@ function onSubmitBnt (event) {
 
     if (passwordField===""||emailField===""){
         alert("все поля должны быть заполнены");
-        // return
     } else {
         toBackend.email = emailField;
         toBackend.password = passwordField;
         console.log(toBackend);
     };  
 
-
 form.reset();
 }
+
+
+
+// Done
