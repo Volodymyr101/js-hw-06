@@ -14,11 +14,11 @@ function onCreateBtn(event){
   };
 
 function onDestroyBtn(event){
-  
   divToFill.innerHTML = ''
   };
 
 function createBoxes(amount){
+  divToFill.innerHTML = '';
   for (let i=0;i<amount;i+=1){
     const newDiv = document.createElement("div");
     newDiv.style.width = `${30+10*i}px`;
