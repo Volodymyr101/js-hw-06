@@ -10,3 +10,6 @@ for (let i=0; i<em.length; i+=1){
    let groupContent = em[i].lastElementChild;
    console.log(`Elements: ${groupContent.children.length}`);
 }
+
+
+// done
